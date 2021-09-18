@@ -1,0 +1,18 @@
+.header {
+  background-color: white;
+  .header--menu {
+    display: flex;
+
+    .header--menu--item {
+      margin: 8px 16px;
+      font-size: 16px;
+
+      .header--menu--item--link {
+        color: #444;
+        &:hover {
+          color: orange;
+        }
+      }
+    }
+  }
+}

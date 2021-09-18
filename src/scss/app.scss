@@ -1,5 +1,8 @@
 /* By Athlon Front-End Team */
 
+@import "base/base";
+
+@import "../fonts/IRANSansFa/css/fontiran.css";
 /* Core variables */
 @import "base/vars";
 
@@ -15,3 +18,4 @@
 /* Vendor */
 
 /* Components */
+@import "components/header";
