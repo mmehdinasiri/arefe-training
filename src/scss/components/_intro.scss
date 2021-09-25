@@ -29,5 +29,18 @@
     .intro--text--discription {
       font-size: 20px;
     }
+
+    .intro--action {
+      margin-top: 24px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 32px;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      .button {
+        min-width: 180px;
+      }
+    }
   }
 }
