@@ -1,0 +1,72 @@
+.services {
+  display: flex;
+  transform: translateY(-50%);
+  .service--item {
+    margin-left: 16px;
+    margin-right: 16px;
+    text-align: center;
+
+    .service--item--photo {
+      background-color: white;
+      border-radius: 50%;
+      width: 114px;
+      height: 114px;
+      padding: 24px;
+      margin: 0 auto -32px;
+      position: relative;
+      z-index: 2;
+      svg {
+        stroke-width: 2;
+      }
+    }
+
+    .service--item--info {
+      background-color: white;
+      border-radius: 16px;
+      padding: 32px 16px;
+      color: white;
+
+      .service--item--info--title {
+        margin-top: 32px;
+        margin-bottom: 30px;
+        font-size: 24px;
+        &::after {
+          content: "";
+          height: 2px;
+          background-color: white;
+          width: 30%;
+          display: block;
+          margin: 16px auto;
+        }
+      }
+      .service--item--info--desc {
+        line-height: 24px;
+      }
+    }
+
+    ///modifiers
+    &.service--item--cyne {
+      .service--item--info {
+        background-color: cyan;
+      }
+    }
+
+    &.service--item--blue {
+      .service--item--info {
+        background-color: blue;
+      }
+    }
+
+    &.service--item--red {
+      .service--item--info {
+        background-color: red;
+      }
+    }
+
+    &.service--item--orange {
+      .service--item--info {
+        background-color: orange;
+      }
+    }
+  }
+}
